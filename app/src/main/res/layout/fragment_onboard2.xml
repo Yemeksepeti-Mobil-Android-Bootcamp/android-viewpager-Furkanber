@@ -41,6 +41,7 @@
         android:textStyle="normal" />
 
     <Button
+        android:visibility="invisible"
         android:textStyle="bold"
         android:fontFamily="sans-serif-condensed"
         android:id="@+id/button_Onboard2"

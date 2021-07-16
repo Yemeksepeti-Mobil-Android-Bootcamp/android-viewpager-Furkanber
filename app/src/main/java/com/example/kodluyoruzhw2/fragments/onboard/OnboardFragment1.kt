@@ -25,10 +25,10 @@ class OnboardFragment1 : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initViews(view)
+        //initViews(view)
     }
 
-    private fun initViews(view: View) {
+    /*private fun initViews(view: View) {
         buttonOnboard1 = view.findViewById(R.id.button_Onboard1)
         buttonOnboard1.setOnClickListener {
             Handler(Looper.getMainLooper()).postDelayed({
@@ -36,5 +36,5 @@ class OnboardFragment1 : BaseFragment() {
             }, 50)
 
         }
-    }
+    }*/
 }

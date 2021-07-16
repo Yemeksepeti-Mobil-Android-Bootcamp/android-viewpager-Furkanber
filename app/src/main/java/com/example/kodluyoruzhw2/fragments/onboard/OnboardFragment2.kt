@@ -25,15 +25,15 @@ class OnboardFragment2 : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initViews(view)
+        //initViews(view)
     }
 
-    private fun initViews(view: View) {
+    /*private fun initViews(view: View) {
         buttonOnboard2 = view.findViewById(R.id.button_Onboard2)
         buttonOnboard2.setOnClickListener {
             Handler(Looper.getMainLooper()).postDelayed({
                 findNavController().navigate(R.id.action_onboardFragment2_to_onboardFragment3)
             }, 50)
         }
-    }
+    }*/
 }

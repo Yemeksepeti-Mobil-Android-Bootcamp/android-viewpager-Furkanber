@@ -12,41 +12,28 @@
         tools:layout="@layout/fragment_splash" >
         <action
             android:id="@+id/action_splashFragment_to_onboardFragment1"
-            app:destination="@id/onboardFragment1"
+            app:destination="@id/mainOnboardFragment"
             app:enterAnim="@android:anim/fade_in"
             app:exitAnim="@android:anim/fade_out"
             app:popEnterAnim="@android:anim/fade_in"
             app:popExitAnim="@android:anim/fade_out" />
     </fragment>
     <fragment
-        android:id="@+id/onboardFragment1"
-        android:name="com.example.kodluyoruzhw2.fragments.onboard.OnboardFragment1"
-        android:label="fragment_onboard1"
-        tools:layout="@layout/fragment_onboard1" >
+        android:id="@+id/mainOnboardFragment"
+        android:name="com.example.kodluyoruzhw2.fragments.onboard.MainOnboardFragment"
+        android:label="fragment_onboard_main"
+        tools:layout="@layout/fragment_onboard_main" >
         <action
-            android:id="@+id/action_onboardFragment1_to_onboardFragment2"
-            app:destination="@id/onboardFragment2"
+            android:id="@+id/action_mainOnboardFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment"
             app:enterAnim="@android:anim/fade_in"
             app:exitAnim="@android:anim/fade_out"
             app:popEnterAnim="@android:anim/fade_in"
             app:popExitAnim="@android:anim/fade_out" />
     </fragment>
     <fragment
-        android:id="@+id/onboardFragment2"
-        android:name="com.example.kodluyoruzhw2.fragments.onboard.OnboardFragment2"
-        android:label="fragment_onboard2"
-        tools:layout="@layout/fragment_onboard2" >
-        <action
-            android:id="@+id/action_onboardFragment2_to_onboardFragment3"
-            app:destination="@id/onboardFragment3"
-            app:enterAnim="@android:anim/fade_in"
-            app:exitAnim="@android:anim/fade_out"
-            app:popEnterAnim="@android:anim/fade_in"
-            app:popExitAnim="@android:anim/slide_in_left" />
-    </fragment>
-    <fragment
-        android:id="@+id/onboardFragment3"
-        android:name="com.example.kodluyoruzhw2.fragments.onboard.OnboardFragment3"
-        android:label="fragment_onboard3"
-        tools:layout="@layout/fragment_onboard3" />
+        android:id="@+id/homepageFragment"
+        android:name="com.example.kodluyoruzhw2.fragments.onboard.HomepageFragment"
+        android:label="fragment_homepage"
+        tools:layout="@layout/fragment_homepage" />
 </navigation>
