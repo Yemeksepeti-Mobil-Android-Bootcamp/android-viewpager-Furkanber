@@ -1,6 +1,6 @@
 # Fitness Tracker App
 
-Fitness Tracker App 
+Fitness Tracker App, ViewPager and ViewPager Indicator is used.
 
 ------
 
